@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>News Letter LaunchPad</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="appHead">
+            <img src="image/logo/launchpadkerala.svg" id="headLogo">
+            <h1 id="headTitle">Launchpad Kerala</h1>
+            <div class="buttonLink">
+                <a href="https://www.launchpadkerala.org/registration">Register Now</a>
+            </div>
+        </div>
+        <br>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="#section1">Home</a></li>
+                    <li><a href="#section6">Let's Start</a></li>
+                    <li><a href="#section2">About</a></li>
+                    <li><a href="#section3">Benefits</a></li>
+                    <li><a href="#section4">Community</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <br>
+
+    <section id="section1">
+        <div class="sectionSlide">
+            <div class="slideshow-container">
+                <div class="slide">
+                    <div class="subHead">
+                        <h2>IEEE in Collaboration with GTech MuLearn set for Launchpad 2024 Job Fair</h2>
+                        <br>
+                        <div class="imgrow">
+                            <div class="imageSlide"><img src="image/logo/IEEE Kerala Section.png"></div>
+                            <div class="imageSlide"><img src="image/logo/KKEM.png"></div>
+                            <div class="imageSlide"><img src="image/logo/GTech MuLearn.png"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="subHead2">
+                        <p>“Success is not just about climbing the ladder; it's about the journey and the impact you make.”
+                        </p>
+                        <img id="imgTop" src="image/Students.jpg">
+                    </div>
+                </div>
+                <div class="slide"><img src="image/image.png" id="bigimg"></div>
+            </div>
+        </div>
+        <div class="comment">
+            <p id="p1">Still looking for job ?</p>
+            <p id="p2">Does it bother you to attend boring placement sessions and interview preparations? Do you have the skills to do a job but find
+                it difficult to prove
+                it to employers? Then Launchpad is for you!</p>
+        </div>
+    </section>
+
+    <section id="section2">
+        <h1 id="secHead">About</h1>
+        <p id="secbody">
+            One of the most prestigious events of IEEE Kerala Section and GTech MuLearn that is determined to serve the goal of creating
+            opportunities for engineering students and graduates. Launchpad Kerala 2024 is a premier job fair that brings together talented
+            individuals and
+            innovative companies in the technical and engineering fields. This collaboration between IEEE Kerala Section and GTech MuLearn aims to
+            propel advancement and
+            innovation within Kerala's employment landscape by facilitating the seamless exchange of ideas and expertise.
+        </p>
+    </section>
+
+    <section id="section6">
+        <h1 id="secHead">Let's get Started</h1>
+        <h3 id="subsecHead">Process</h3>
+        <p id="secbody">How to register as student - <a href="https://www.launchpadkerala.org/process">https://www.launchpadkerala.org/process</a> see
+            for detailed instructions.
+        </p>
+        <h1 id="secHead">RoadMap for LaunchPad</h1>
+        <ol>
+            <li>Participant registration</li>
+            <li>Company registration close</li>
+            <li>Challenge start</li>
+            <li>Online exam</li>
+            <li>Consolidated rank list</li>
+            <li>Option selection</li>
+            <li>Confirmed mail to selected participants</li>
+            <li>Interviews</li>
+        </ol>
+        <h3 style="margin-left: 250px;"><a href="https://www.launchpadkerala.org/">Register here</a> and have fun Learn Something New !</h3>
+    </section>
+
+    <section id="section3">
+        <h1 id="secHead">Benefits</h1>
+        <h3 id="subsecHead">Networking Opportunities</h3>
+        <p id="secbody">Students have the chance to network with professionals and representatives from various innovative companies, establishing
+            valuable connections for
+            potential internships, co-op opportunities, and future employment.</p>
+        <h3 id="subsecHead">Exposure to Diverse Career Paths</h3>
+        <p id="secbody">Launchpad Kerala features a wide range of companies across different sectors and industries, exposing students to diverse
+            career paths they may not
+            have considered before. This helps them explore various options and find the right fit for their interests and skills.</p>
+        <h3 id="subsecHead">Access to Industry Insights</h3>
+        <p id="secbody">Attending the job fair exposes students to the latest trends, technologies, and challenges in their field. They can gain
+            insights into industry best
+            practices, upcoming projects, and the skills in demand by interacting directly with industry professionals.</p>
+    </section>
+
+    <section id="section4">
+        <h1 id="secHead">Community</h1>
+        <h3 id="subsecHead">Got any questions?</h3>
+        <p id="secbody">Thousands of Professionals and Students are connected through Social media and other community platforms, active 24 * 7 for
+            helping you achieve your goal</p>
+        <p id="secbody">Join us for Launchpad doubt clearance sessions every Tuesday, Thursday and Saturday from 8:30 PM to 10 PM, where we'll clear
+            your each and every query
+            regarding Launchpad Kerala 2024! <a href="mulearn.org/r/launchpadkeralameet">mulearn.org/r/launchpadkeralameet</a> </p>
+    </section>
+
+    <section id="section5"></section>
+    <footer>
+        <div class="cfooter">
+            <p>
+                Content is based on information from <a href="https://www.launchpadkerala.org/">IEEE LaunchPad</a> Website and MLern Discord
+                server.
+            </p>
+            <h3>
+                © 2024 Launchpad Kerala. All Rights Reserved.
+            </h3>
+            <h5>
+                The project is for full educational purposes. If there is any proprietary content, it will be taken down within 48 hours of a report.
+            </h5>
+        </div>
+    </footer>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.querySelectorAll(".slide");
+            slides.forEach((slide) => {
+                slide.style.display = "none";
+            });
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 2500);
+        }
+    </script>
+</body>
+
+</html>
